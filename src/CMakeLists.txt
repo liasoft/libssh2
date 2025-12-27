@@ -187,7 +187,7 @@ install(EXPORT "${PROJECT_NAME}-targets"
 
 ## During build, register directly from build tree
 # create libssh2-targets.cmake
-export(TARGETS ${_libssh2_export} NAMESPACE "${PROJECT_NAME}::" FILE "${PROJECT_NAME}-targets.cmake")
+# export(TARGETS ${_libssh2_export} NAMESPACE "${PROJECT_NAME}::" FILE "${PROJECT_NAME}-targets.cmake")
 export(PACKAGE ${PROJECT_NAME})  # register it
 
 # Generate libssh2-config.cmake into build tree and install it with dependencies
